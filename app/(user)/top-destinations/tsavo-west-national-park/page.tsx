@@ -156,7 +156,7 @@ const TsavoWest = () => {
         </div>
         <Link
           href="/reservation"
-          className="border text-sm border-[#e3170a] py-2 px-4 outline-none hover:bg-transparent rounded-sm gap-2 hover:text-[#e3170a] flex flex-row items-center justify-center bg-[#e3170a] active:scale-95 text-white/90 duration-150 transition-all ease-out font-medium">
+          className="border text-sm border-[#e3170a] py-2 px-4 outline-none hover:bg-transparent rounded-sm gap-2 hover:text-[#e3170a] flex flex-row items-center justify-center bg-[#e3170a] active:scale-95 text-white/90 duration-150 transition-all w-fit ease-out font-medium">
           <p>Enquire Now</p>
           <HiArrowCircleRight size={18} />
         </Link>
