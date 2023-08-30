@@ -35,38 +35,36 @@ const Maasai = () => {
         <div className="flex flex-col sm:flex-row gap-8 w-full justify-between">
           {/* Image and overview */}
           <div className=" w-full gap-8 grid grid-cols-1 sm:grid-cols-2">
-            {/* Image and overview */}
-            <div className=" w-full gap-8 grid grid-cols-1 sm:grid-cols-2">
-              {/* Image Carausel*/}
-              <div className="w-full h-[300px] sm:h-[350px] overflow-hidden">
-                <Slider {...settings}>
-                  <div className="w-full h-[300px] sm:h-[350px] relative">
-                    <Image
-                      className="object-cover rounded-md"
-                      src="/maasai/wbeasts.jpg"
-                      fill
-                      alt="wild beasts"
-                    />
-                  </div>
-                  <div className="w-full h-[300px] sm:h-[350px] relative">
-                    <Image
-                      className="object-cover rounded-md"
-                      src="/maasai/mara1.jpg"
-                      fill
-                      alt="elephants"
-                    />
-                  </div>
-                  <div className="w-full h-[300px] sm:h-[350px] relative">
-                    <Image
-                      className="object-cover rounded-md"
-                      src="/maasai/ostrich.JPG"
-                      fill
-                      alt="ostrich"
-                    />
-                  </div>
-                </Slider>
-              </div>
+            {/* Image Carausel*/}
+            <div className="w-full h-[300px] sm:h-[350px] overflow-hidden">
+              <Slider {...settings}>
+                <div className="w-full h-[300px] sm:h-[350px] relative">
+                  <Image
+                    className="object-cover rounded-md"
+                    src="/maasai/wbeasts.jpg"
+                    fill
+                    alt="wild beasts"
+                  />
+                </div>
+                <div className="w-full h-[300px] sm:h-[350px] relative">
+                  <Image
+                    className="object-cover rounded-md"
+                    src="/maasai/mara1.jpg"
+                    fill
+                    alt="elephants"
+                  />
+                </div>
+                <div className="w-full h-[300px] sm:h-[350px] relative">
+                  <Image
+                    className="object-cover rounded-md"
+                    src="/maasai/ostrich.JPG"
+                    fill
+                    alt="ostrich"
+                  />
+                </div>
+              </Slider>
             </div>
+
             <div>
               <p className="text-gray-700">
                 Maasai Mara Game Reserve, located in southwestern Kenya, is a
@@ -93,7 +91,6 @@ const Maasai = () => {
             <h6 className="text-xl">Attractions</h6>
             <ul className="list-disc text-sm text-gray-700 pl-6">
               <li>Lerge herds of elephants</li>
-
               <li>Big Five</li>
               <li>
                 Observation Hill which allows an overall view of the whole park
