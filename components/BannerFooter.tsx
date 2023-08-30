@@ -14,28 +14,14 @@ const BannerFooter = () => {
         <p className="text-white/80">
           &#169;2023 paulosafaris - All rights reserved
         </p>
-        {/* <div className="flex items-center justify-center gap-4">
-          {bannerfooterlinks.map((link) => (
-            <Link
-              key={link.id}
-              href={link.url}
-              className={
-                pathname == link.url
-                  ? "text-white font-medium text-base"
-                  : "text-white/80 text-base hover:text-white"
-              }>
-              {link.name}
-            </Link>
-          ))}
-        </div> */}
         <div className="flex flex-row items-center text-sm text-white/80">
           <p>Built with</p>
-          <BsHeartFill className="h-3 w-3 text-red mx-2" />
+          <BsHeartFill className="h-3 w-3 text-red mx-2" /> by
           <Link
             href="https://johnsonmuchiri.vercel.app"
             rel="noopener noreferrer"
-            className="hover:text-white">
-            by Muchiri Wamuyu
+            className="hover:text-white underline hover:no-underline">
+            Muchiri Wamuyu
           </Link>
         </div>
       </div>
