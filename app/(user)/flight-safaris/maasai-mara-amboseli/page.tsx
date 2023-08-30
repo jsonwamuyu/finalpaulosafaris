@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { HiLocationMarker } from "react-icons/hi";
+import { HiArrowCircleRight, HiLocationMarker } from "react-icons/hi";
 import { GiPadlock } from "react-icons/gi";
 import { useState } from "react";
 
@@ -9,6 +9,8 @@ import { FaCheckCircle } from "react-icons/fa";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+
+import Link from "next/link";
 
 export default function MaasaiMaraAmboseli() {
   const [toggle, setToggle] = useState("description");
@@ -285,6 +287,13 @@ export default function MaasaiMaraAmboseli() {
             )}
           </div>
         </div>
+
+        <Link
+          href="/reservation"
+          className="border text-sm border-[#e3170a] py-2 px-4 outline-none hover:bg-transparent rounded-sm gap-2 hover:text-[#e3170a] flex flex-row items-center justify-center bg-[#e3170a] active:scale-95 text-white/90 duration-150 transition-all ease-out font-medium">
+          <p>Enquire Now</p>
+          <HiArrowCircleRight size={18} />
+        </Link>
       </div>
     </section>
   );

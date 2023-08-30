@@ -6,6 +6,8 @@ import { nakuru } from "@/components/constants";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { HiArrowCircleRight } from "react-icons/hi";
+import Link from "next/link";
 
 const LakeNakuru = () => {
   const settings = {
@@ -150,6 +152,12 @@ const LakeNakuru = () => {
             </div>
           ))}
         </div>
+        <Link
+          href="/reservation"
+          className="border text-sm border-[#e3170a] py-2 px-4 outline-none hover:bg-transparent rounded-sm gap-2 hover:text-[#e3170a] flex flex-row items-center justify-center bg-[#e3170a] active:scale-95 text-white/90 duration-150 transition-all ease-out font-medium">
+          <p>Enquire Now</p>
+          <HiArrowCircleRight size={18} />
+        </Link>
       </div>
     </section>
   );

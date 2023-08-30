@@ -2,10 +2,14 @@ import React from 'react';
 import Image from 'next/image';
 import { getDestination } from '@/sanity/sanity-utils';
 import { urlForImage } from '@/sanity/lib/image';
+import { HiArrowCircleRight } from "react-icons/hi";
+import Link from "next/link";
 
-
-export default async function Destination({params}:{params:{slug: string}}) {
-
+export default async function Destination({
+  params,
+}: {
+  params: { slug: string };
+}) {
   const destination = await getDestination(params.slug);
 
   return (
@@ -23,9 +27,13 @@ export default async function Destination({params}:{params:{slug: string}}) {
         <div>
           <p>{destination.content}</p>
         </div>
-        <div className="flex flex-wrap flex-row gap-2"></div>
+        <Link
+          href="/reservation"
+          className="border text-sm border-[#e3170a] py-2 px-4 outline-none hover:bg-transparent rounded-sm gap-2 hover:text-[#e3170a] flex flex-row items-center justify-center bg-[#e3170a] active:scale-95 text-white/90 duration-150 transition-all ease-out font-medium">
+          <p>Enquire Now</p>
+          <HiArrowCircleRight size={18} />
+        </Link>
       </div>
     </section>
   );
-
 }
