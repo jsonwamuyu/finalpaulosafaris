@@ -37,7 +37,7 @@ const TsavoWest = () => {
             {/* Image Carausel*/}
             <div className="w-full h-[300px] sm:h-[350px] overflow-hidden">
               <Slider {...settings}>
-                <div className="w-full h-[300px] sm:h-[350px] bg-inherit relative">
+                <div className="w-full h-[300px] sm:h-[350px] relative">
                   <Image
                     className="object-cover rounded-md"
                     src="/tsavowest/juckle.jpg"
@@ -45,7 +45,7 @@ const TsavoWest = () => {
                     alt="juckle"
                   />
                 </div>
-                <div className="w-full h-[300px] sm:h-[350px] bg-inherit relative">
+                <div className="w-full h-[300px] sm:h-[350px] relative">
                   <Image
                     className="object-cover rounded-md"
                     src="/tsavowest/wilddogs.jpg"
@@ -53,7 +53,7 @@ const TsavoWest = () => {
                     alt="wilddogs"
                   />
                 </div>
-                <div className="w-full h-[300px] md:h-[400px] lg:h-[450px] sm:h-[350px] bg-inherit relative">
+                <div className="w-full h-[300px] sm:h-[350px] relative">
                   <Image
                     className="object-cover rounded-md"
                     src="/tsavowest/zebra.jpg"

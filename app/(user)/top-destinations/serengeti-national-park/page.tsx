@@ -37,7 +37,7 @@ const Serengeti = () => {
             {/* Image Carausel*/}
             <div className="w-full h-[300px] sm:h-[350px] overflow-hidden">
               <Slider {...settings}>
-                <div className="w-full h-[300px] sm:h-[350px] bg-inherit relative">
+                <div className="w-full h-[300px] sm:h-[350px] relative">
                   <Image
                     className="object-cover rounded-md"
                     src="/serengeti/serengeti.jpg"
@@ -45,7 +45,7 @@ const Serengeti = () => {
                     alt="wildbeasts"
                   />
                 </div>
-                <div className="w-full h-[300px] sm:h-[350px] bg-inherit relative">
+                <div className="w-full h-[300px] sm:h-[350px] relative">
                   <Image
                     className="object-cover rounded-md"
                     src="/serengeti/eating.jpg"
@@ -53,7 +53,7 @@ const Serengeti = () => {
                     alt="killing"
                   />
                 </div>
-                <div className="w-full h-[300px] md:h-[400px] lg:h-[450px] sm:h-[350px] bg-inherit relative">
+                <div className="w-full h-[300px] sm:h-[350px] relative">
                   <Image
                     className="object-cover rounded-md"
                     src="/serengeti/zebras.jpg"
