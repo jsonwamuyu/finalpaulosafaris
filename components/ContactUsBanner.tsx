@@ -40,9 +40,7 @@ const ContactUsBanner = () => {
           </div>
         </div>
         <div className="space-y-4 ">
-          <h5 className="text-4xl text-green text-center mt-5">
-            Contact paulosafaris
-          </h5>
+          <h5 className="text-4xl text-green text-center mt-5">Contact Us</h5>
           <p className="text-center text-base text-black/80">
             To make a <span className="font-bold">Safari Resarvation</span>, or
             simply you want to get in touch with us regarding our fantastic
