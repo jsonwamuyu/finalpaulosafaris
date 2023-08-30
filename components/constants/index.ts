@@ -293,12 +293,12 @@ const amboseli = [
   },
   {
     id: 2,
-    img: "/amboseli/.elephants.jpg",
+    img: "/amboseli/elephants.jpg",
     alt: "elephants",
   },
   {
     id: 3,
-    img: "/amboseli/wildebeast.jpg",
+    img: "/amboseli/wildebest.jpg",
     alt: "wildebeast",
   },
   {
@@ -308,7 +308,7 @@ const amboseli = [
   },
   {
     id: 5,
-    img: "/amboseli/flamingo.jpg",
+    img: "/amboseli/flamingos.jpg",
     alt: "flamingos",
   },
   {
@@ -354,18 +354,18 @@ const nakuru = [
 const maasai = [
   {
     id: 1,
-    img: "/maasai/giraffe.jpg",
+    img: "/maasai/mara1.jpg",
     alt: "giraffe",
   },
   {
     id: 2,
-    img: "/maasai/mara.jpg",
+    img: "/maasai/mara2.jpg",
     alt: "car",
   },
   {
     id: 3,
-    img: "/maasai/birds.jpg",
-    alt: "birds",
+    img: "/maasai/ostrich.JPG",
+    alt: "Ostrich",
   },
   {
     id: 4,
@@ -374,7 +374,7 @@ const maasai = [
   },
   {
     id: 5,
-    img: "/maasai/mara4.jpg",
+    img: "/maasai/wbeasts.jpg",
     alt: "lion",
   },
   {

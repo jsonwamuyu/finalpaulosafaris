@@ -66,22 +66,6 @@ const Maasai = () => {
                   </div>
                 </Slider>
               </div>
-              <div>
-                <p className="text-gray-700">
-                  Amboseli National Park, nestled at the foot of Mount
-                  Kilimanjaro in southern Kenya, is a captivating wildlife
-                  sanctuary known for its stunning vistas and diverse wildlife.
-                  Spanning over 390 square kilometers, the park boasts vast
-                  grasslands, seasonal swamps, and acacia woodlands, providing
-                  an ideal habitat for numerous animal species, including
-                  elephants, lions, giraffes, zebras, and various bird species.
-                  Visitors to Amboseli are rewarded with breathtaking views of
-                  tallest mountain in Africa as a backdrop to the abundant
-                  wildlife. Renowned for its elephant herds and iconic
-                  landscapes, Amboseli National Park offers an unforgettable
-                  safari experience in the wilderness of heart of Africa.
-                </p>
-              </div>
             </div>
             <div>
               <p className="text-gray-700">
@@ -109,7 +93,7 @@ const Maasai = () => {
             <h6 className="text-xl">Attractions</h6>
             <ul className="list-disc text-sm text-gray-700 pl-6">
               <li>Lerge herds of elephants</li>
-              <li>Mount Kilimanjaro</li>
+
               <li>Big Five</li>
               <li>
                 Observation Hill which allows an overall view of the whole park
