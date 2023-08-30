@@ -44,11 +44,10 @@ const ContactUsBanner = () => {
           <p className="text-center text-base text-black/80">
             To make a <span className="font-bold">Safari Resarvation</span>, or
             simply you want to get in touch with us regarding our fantastic
-            collection of
-            <span className="font-bold"> KENYA</span>
-            <span className="font-bold">
-              ,TANZANIA, UGANDA & RWANDA Safaris
-            </span>
+            collection of{" "}
+            <span className="font-bold underline decoration-[#ffc15c]">
+              KENYA ,TANZANIA, UGANDA & RWANDA Safaris
+            </span>{" "}
             . Please do so at any given time. Our abled specialists will find
             the <span className="font-bold">Perfect Tour</span> tailor-made for
             you, whatever <span className="font-bold">Your Budget</span> is.

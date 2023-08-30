@@ -23,7 +23,7 @@ const Navbar = () => {
       <nav className="py-2 flex items-center justify-between h-16 sm:h-[70px]  max-w-7xl m-auto px-4 sm:px-6 lg:px-8 ">
         <div className="rounded-md">
           <Link
-            className="flex items-center flex-row gap-2"
+            className="flex items-center flex-row gap-1"
             href="/"
             onClick={() => {
               window.scrollTo();
@@ -36,7 +36,7 @@ const Navbar = () => {
               className="object-contain cursor-pointer rounded-md"
             />
 
-            <p className="text-xl font-bold text-red">
+            <p className="text-xl font-bold text-red drop-shadow-md">
               Paulo<span className="text-[#191919]">Safaris</span>
             </p>
           </Link>
