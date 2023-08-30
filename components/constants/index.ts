@@ -42,7 +42,7 @@ const safaris = [
   {
     id: 2,
     url: "/safaris/great-kenya",
-    imgUrl: "/safaris/great-kenya/bufallos.jpg",
+    imgUrl: "/safaris/great-kenya/bufallo.jpg",
     title: "Great Kenya (8 days)",
     location:
       "Tsavo East N. Park, Amboseli N. Park, Nairobi N. Park, L. Nakuru, Maasai Mara N. Park, L. Naivasha",
@@ -60,7 +60,7 @@ const safaris = [
   {
     id: 4,
     url: "/safaris/tsavo-special",
-    imgUrl: "/safaris/tsavo-special/elephant.JPG",
+    imgUrl: "/safaris/tsavo-special/elephants.jpg",
     title: "Tsavo Special (3 days)",
     location: "Tsavo East N. Park & Taita Hills Sanctuary",
     alt: "elephants",
@@ -69,16 +69,16 @@ const safaris = [
   {
     id: 5,
     url: "/safaris/nairobi-special",
-    imgUrl: "/safaris/nairobi-special/gazells.JPG",
+    imgUrl: "/safaris/nairobi-special/leopard.jpg",
     title: "Nairobi Special (4 days)",
     location: "Nairibi N. Park , Giraffe Center, Karen Blixen",
-    alt: "gazells",
+    alt: "leopard",
   },
 
   {
     id: 6,
     url: "/safaris/big-five",
-    imgUrl: "/safaris/big-five/LION.JPG",
+    imgUrl: "/safaris/big-five/lion.jpg",
     title: "Big Five (5 days)",
     location: "L Nakuru & Maasai Mara N. Park",
     alt: "lion",
@@ -97,7 +97,7 @@ const flightsafaris = [
   {
     id: 2,
     url: "/flight-safaris/maasai-mara-special",
-    imgUrl: "/flightsafaris/mara-special/ostrich.JPG",
+    imgUrl: "/flightsafaris/mara-special/ostrich.jpg",
     title: "Maasai Mara Special (3 days)",
     location: "Maasai Mara National Park",
     alt: "ostrich",

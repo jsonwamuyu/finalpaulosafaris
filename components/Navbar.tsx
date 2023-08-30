@@ -27,12 +27,12 @@ const Navbar = () => {
             onClick={() => {
               window.scrollTo();
             }}>
-            {/* <Image
+            <Image
               src="https://i.pinimg.com/280x280_RS/4e/57/38/4e57387264b709884c5f3a19528e9df5.jpg"
               alt="paulosafaris"
               fill
               className="object-contain cursor-pointer rounded-md"
-            /> */}
+            />
           </Link>
         </div>
 

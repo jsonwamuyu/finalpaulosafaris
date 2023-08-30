@@ -17,7 +17,7 @@ const Home = () => {
       <MombasaSafaris />
       <FlightSafaris />
       <Destinations />
-      {/* <TestimonialCarousel /> */}
+      <TestimonialCarousel />
     </div>
   );
 };

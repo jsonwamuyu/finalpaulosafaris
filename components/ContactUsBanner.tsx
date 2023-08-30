@@ -10,7 +10,7 @@ const ContactUsBanner = () => {
           <h2 className="text-4xl text-green text-center sm:text-start">
             Our Services
           </h2>
-          <div className="text-center sm:text-start space-y-2">
+          <div className="text-center sm:text-start space-y-1">
             <h5 className="text-xl font-medium text-center sm:text-start">
               Kenya Tours
             </h5>
@@ -22,7 +22,7 @@ const ContactUsBanner = () => {
               Baringo, Taita Hills Sanctuary
             </p>
           </div>
-          <div className="text-center sm:text-start space-y-2">
+          <div className="text-center sm:text-start space-y-1">
             <h5 className="text-xl font-medium text-center sm:text-start">
               Tanzania Tours
             </h5>
@@ -31,7 +31,7 @@ const ContactUsBanner = () => {
               National Park, Lake Manyara National Park, Ngorongoro Crater
             </p>
           </div>
-          <div className="text-center sm:text-start space-y-2">
+          <div className="text-center sm:text-start space-y-1">
             <h5 className="text-xl font-medium text-center sm:text-start">
               Rwanda Tours
             </h5>
@@ -40,7 +40,7 @@ const ContactUsBanner = () => {
             </p>
           </div>
 
-          <div className="text-center sm:text-start space-y-2">
+          <div className="text-center sm:text-start space-y-1">
             <h5 className="text-xl font-medium text-center sm:text-start">
               Uganda Tours
             </h5>
@@ -53,7 +53,9 @@ const ContactUsBanner = () => {
           <h5 className="text-4xl text-green text-center sm:text-start ">
             Contact paulosafaris
           </h5>
-          <p className="text-center sm:text-start text-base text-black/80">
+          <p
+            className="text-center sm:text-start text-base t
+          ext-black/80">
             To make a <span className="font-bold">Safari Resarvation</span>, or
             simply you want to get in touch with us regarding our fantastic
             collection of
