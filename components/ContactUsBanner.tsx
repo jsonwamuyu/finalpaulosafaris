@@ -4,8 +4,8 @@ import { HiArrowCircleRight } from "react-icons/hi";
 
 const ContactUsBanner = () => {
   return (
-    <section className="w-full -mt-[7px] bg-gradient-radial from-green-100 via-green-50 to-slate-100  filter">
-      <article className="max-w-7xl mx-auto justify-center items-center py-16 px-8 flex flex-col gap-6">
+    <section className="w-full -mt-[7px] bg-slate-200">
+      <article className="max-w-7xl mx-auto justify-center sm:items-center items-center py-16 px-8 flex flex-col space-y-8">
         <div className=" space-y-4">
           <h2 className="text-4xl text-green text-center sm:text-start">
             Our Services
@@ -51,10 +51,10 @@ const ContactUsBanner = () => {
         </div>
         <div className="space-y-4">
           <h5 className="text-4xl text-green text-center sm:text-start ">
-            Contact paulosafaris.
+            Contact paulosafaris
           </h5>
           <p className="text-center sm:text-start text-base text-black/80">
-            To make a<span className="font-bold">Safari Resarvation</span>, or
+            To make a <span className="font-bold">Safari Resarvation</span>, or
             simply you want to get in touch with us regarding our fantastic
             collection of
             <span className="font-bold"> KENYA</span>
