@@ -21,7 +21,7 @@ const Navbar = () => {
     <header className="fixed top-0 left-0 right-0 w-full bg-white shadow-md z-10">
       <Banner />
       <nav className="py-2 flex items-center justify-between h-16 sm:h-[70px]  max-w-7xl m-auto px-4 sm:px-6 lg:px-8 ">
-        <div className="h-14 w-14 relative rounded-md">
+        <div className="rounded-md">
           <Link
             className="flex items-center flex-row gap-4"
             href="/"
@@ -31,10 +31,12 @@ const Navbar = () => {
             <Image
               src="https://i.pinimg.com/280x280_RS/4e/57/38/4e57387264b709884c5f3a19528e9df5.jpg"
               alt="paulosafaris"
-              fill
+              width={34}
+              height={34}
               className="object-contain cursor-pointer rounded-md"
             />
-            <p className="text-4xl font-bold text-red">
+
+            <p className="text-xl font-bold text-red">
               Paulo <span className="text-[#191919]">Safaris</span>
             </p>
           </Link>
