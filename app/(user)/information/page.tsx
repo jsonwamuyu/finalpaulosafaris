@@ -12,7 +12,7 @@ export default function Information(){
         <div className="max-w-7xl m-auto px-4 sm:px-6 lg:px-8  p-16 pb-8 sm:pb-12 flex flex-col space-y-6 mt-10 sm:mt-16 lg:mt-24">
           <h2 className="text-4xl">Useful Information.</h2>
           <div className="w-full sm:max-w-5xl">
-            <ul className="list-disc space-y-4 text-sm pl-4">
+            <ul className="list-disc space-y-4 text-base pl-4">
               <li>
                 The standard child policy in properties in East Africa is that:
                 Children aged 02 to 12 years pays 50% of adult rates in

@@ -15,7 +15,7 @@ const TermsConditions = () =>{
             {/* Booking Terms  */}
             <div className="space-y-2">
               <h4 className="text-2xl">Safari Reservation</h4>
-              <ul className="text-sm space-y-4 list-disc pl-6">
+              <ul className="text-base space-y-4 list-disc pl-6">
                 <li>
                   To{" "}
                   <Link
@@ -52,7 +52,7 @@ const TermsConditions = () =>{
             {/* Cancelling Terms */}
             <div className="space-y-2">
               <h4 className="text-2xl">Safari Cancellation</h4>
-              <p className="text-sm pb-4">
+              <p className="text-base pb-4">
                 If you decide for whatever reason(s) to cancel your safari
                 reservation(s), the amount refunded(in percentage of the package
                 total) to you is as tabulated below.{" "}
@@ -103,7 +103,7 @@ const TermsConditions = () =>{
             {/* Safari Alteration */}
             <div className="space-y-2">
               <h4 className="text-2xl">Safari Alterations</h4>
-              <ul className="list-disc text-sm pl-6">
+              <ul className="list-disc text-base pl-6">
                 <li>
                   On the event that conditions arises that necessiate alteration
                   or cancellation of a scheduled tour, the company reserves the
@@ -124,7 +124,7 @@ const TermsConditions = () =>{
             {/* Safety */}
             <div className="space-y-2">
               <h4 className="text-2xl">Safety and Responsibilty</h4>
-              <ul className="list-disc pl-6 text-sm">
+              <ul className="list-disc pl-6 text-base">
                 <li>
                   On the event of any unacceptable, careless or reckless
                   behaviour(s) by the tourist - that leads to any sort of
@@ -163,7 +163,7 @@ const TermsConditions = () =>{
             {/* Transport */}
             <div className="space-y-2">
               <h4 className="text-2xl">Transport</h4>
-              <ul className="list-disc text-sm pl-6">
+              <ul className="list-disc text-base pl-6">
                 <li>
                   Tours car, pop up top safari minibus and 4x4 Land Cruiser
                   Jeeps will be provided depending on safari program/itinerary

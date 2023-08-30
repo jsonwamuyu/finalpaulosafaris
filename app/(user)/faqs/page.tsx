@@ -41,7 +41,7 @@ import Link from "next/link";
                 </h4>
               </div>
               {toggleOne && (
-                <p className="text-sm text-gray-500 pl-8 ">
+                <p className="text-base text-gray-500 pl-8 ">
                   Inluded are all expenses in respect of safari vehicles, driver
                   guide as per itinerary, meals while on safari, accomodation,
                   entrance fees to National parks and Game reserves.
@@ -69,7 +69,7 @@ import Link from "next/link";
                 </h4>
               </div>
               {toggle && (
-                <p className="text-sm text-gray-500 pl-8 ">
+                <p className="text-base text-gray-500 pl-8 ">
                   Refunds are processed within 30 days of reservation
                   cancelling. This is a subject to our{" "}
                   <Link href="/terms_conditions" className="text-red underline">
@@ -99,7 +99,7 @@ import Link from "next/link";
                 </h4>
               </div>
               {toggleTwo && (
-                <p className="text-sm text-gray-500 pl-8 ">
+                <p className="text-base text-gray-500 pl-8 ">
                   Tours car, pop up top safari minibus and 4x4 Land Cruiser
                   Jeeps will be provided depending on safari program/itinerary
                   and number of participants. The company reserves the rights to
@@ -128,7 +128,7 @@ import Link from "next/link";
                 </h4>
               </div>
               {toggleThree && (
-                <p className="text-sm text-gray-500 pl-8 ">
+                <p className="text-base text-gray-500 pl-8 ">
                   East africa climate is typically sunny,dry, and warm,though
                   there are some variations.December through March is warmer
                   with high chance of occasional rains. April expect more rains.
@@ -157,7 +157,7 @@ import Link from "next/link";
                 </h4>
               </div>
               {toggleFour && (
-                <p className="text-sm text-gray-500 pl-8 ">
+                <p className="text-base text-gray-500 pl-8 ">
                   Safaris are typically safe, we highly encourage you to
                   practice some level of precautions. You are highly recommended
                   that the valuables that are unnecessary during the safari be
@@ -186,7 +186,7 @@ import Link from "next/link";
                 </h4>
               </div>
               {toggleFive && (
-                <p className="text-sm text-gray-500 pl-8 ">
+                <p className="text-base text-gray-500 pl-8 ">
                   Yes, because malaria is common in East Africa.We recommend you
                   to consult your local travel clinic or personal physician for
                   the most appropriate medication. You can also carry some
@@ -215,7 +215,7 @@ import Link from "next/link";
                 </h4>
               </div>
               {toggleSix && (
-                <p className="text-sm text-gray-500 pl-8 ">
+                <p className="text-base text-gray-500 pl-8 ">
                   Its highly recommended to bring along your preferred form of
                   sun protection.This include SPF30 or higher sunblock, hats,
                   sunglasses, and thin long-sleeve shirts and pants.
