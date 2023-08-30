@@ -58,7 +58,7 @@ export default function BigFive() {
             <div className="w-full h-[250px] sm:h-[300px] relative">
               <Image
                 className="object-cover rounded-md"
-                src="/safaris/big-five/lions.JPG"
+                src="/safaris/big-five/lion.jpg"
                 fill
                 alt="lions"
               />
