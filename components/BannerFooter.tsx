@@ -16,12 +16,11 @@ const BannerFooter = () => {
         </p>
         <div className="flex flex-row items-center text-sm text-white/80">
           <p>Built with</p>
-          <BsHeartFill className="h-3 w-3 text-red mx-2" /> by
+          <BsHeartFill className="h-3 w-3 text-red mx-2" />
           <Link
             href="https://johnsonmuchiri.vercel.app"
             rel="noopener noreferrer"
-            className="hover:text-white underline hover:no-underline">
-            {" "}
+            className="hover:text-white underline hover:no-underline ml-1">
             Muchiri Wamuyu
           </Link>
         </div>
