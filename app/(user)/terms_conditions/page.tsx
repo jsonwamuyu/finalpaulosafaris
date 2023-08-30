@@ -23,9 +23,9 @@ const TermsConditions = () =>{
                     className="text-red underline cursor-pointer">
                     reserve{" "}
                   </Link>
-                  a safari destination(s) with us, it is highly encouraged to do
-                  so <span className="font-semibold">6(six) months</span> prio
-                  the safari starting date. The intention is to give all the
+                  a safari destination with us, it is highly encouraged to do so{" "}
+                  <span className="font-semibold">6 months</span> prio the
+                  safari starting date. The intention is to give all the
                   involved parties ample time to carry out the required
                   arragements. Also for proper and sufficient preparitions.
                 </li>

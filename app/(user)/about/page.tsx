@@ -45,7 +45,7 @@ export default async function About() {
           </div>
           <div className="space-y-1">
             <h5 className="text-2xl">Our Core Values</h5>
-            <ul className="list-disc space-y-4 pl-4">
+            <ul className="list-disc space-y-4 pl-6">
               <li>
                 <h6 className="italic font-medium">Integrity</h6>
                 <p className="text-base">
