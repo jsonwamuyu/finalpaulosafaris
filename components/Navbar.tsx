@@ -36,7 +36,7 @@ const Navbar = () => {
               className="object-contain cursor-pointer rounded-md"
             />
 
-            <p className="text-xl font-bold text-red drop-shadow-lg">
+            <p className="text-lg font-extrabold text-red drop-shadow-2xl">
               Paulo<span className="text-[#191919]">Safaris</span>
             </p>
           </Link>
