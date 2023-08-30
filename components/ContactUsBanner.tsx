@@ -7,10 +7,14 @@ const ContactUsBanner = () => {
     <section className="w-full -mt-[7px] bg-gradient-radial from-green-100 via-green-50 to-slate-100  filter">
       <article className="max-w-7xl mx-auto justify-center items-center py-16 px-8 flex flex-col gap-6">
         <div className=" space-y-4">
-          <h2 className="text-4xl text-green">Our Services</h2>
-          <div>
-            <h5 className="text-xl font-medium">Kenya Tours</h5>
-            <p className="text-black/80 text-base">
+          <h2 className="text-4xl text-green text-center sm:text-start">
+            Our Services
+          </h2>
+          <div className="text-center sm:text-start">
+            <h5 className="text-xl font-medium text-center sm:text-start">
+              Kenya Tours
+            </h5>
+            <p className="text-black/80 text-base text-center sm:text-start">
               Samburu Game Reserve, Tsavo West/ East National Park, Maasai Mara
               Game Reserve, Solio Ranch, Amboseli National Park, Meru National
               Park,Sweetwaters Sanctuary, Nairobi National Park, Lake Nakuru
@@ -19,29 +23,37 @@ const ContactUsBanner = () => {
             </p>
           </div>
           <div>
-            <h5 className="text-xl font-medium">Tanzania Tours</h5>
-            <p className="text-black/80 text-base">
+            <h5 className="text-xl font-medium text-center sm:text-start">
+              Tanzania Tours
+            </h5>
+            <p className="text-black/80 text-base text-center sm:text-start">
               Serengeti National Park, Arusha, Dar es Salaam, Kilimanjaro
               National Park, Lake Manyara National Park, Ngorongoro Crater
             </p>
           </div>
           <div>
-            <h5 className="text-xl font-medium">Rwanda Tours</h5>
-            <p className="text-black/80 text-base">
+            <h5 className="text-xl font-medium text-center sm:text-start">
+              Rwanda Tours
+            </h5>
+            <p className="text-black/80 text-base text-center sm:text-start">
               Gorilla Trekking - Volcanoes National Park
             </p>
           </div>
 
-          <div>
-            <h5 className="text-xl font-medium">Uganda Tours</h5>
-            <p>Gorilla and Chimp Trekking - Bwindi & Kibale National Park </p>
+          <div className="text-center sm:text-start">
+            <h5 className="text-xl font-medium text-center sm:text-start">
+              Uganda Tours
+            </h5>
+            <p className="text-center sm:text-start text-base text-black/80">
+              Gorilla and Chimp Trekking - Bwindi & Kibale National Park.
+            </p>
           </div>
         </div>
         <div className="space-y-4">
-          <h5 className="text-4xl text-green text-center ">
+          <h5 className="text-4xl text-green text-center sm:text-start ">
             Contact paulosafaris.
           </h5>
-          <p className="text-center text-base text-black/80">
+          <p className="text-center sm:text-start text-base text-black/80">
             To make a<span className="font-bold">Safari Resarvation</span>, or
             simply you want to get in touch with us regarding our fantastic
             collection of
