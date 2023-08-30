@@ -19,7 +19,7 @@ export default async function About() {
       <div className="max-w-7xl m-auto px-4 sm:px-6 lg:px-8 p-16 pb-8 sm:pb-12  flex flex-col space-y-6 mt-10 sm:mt-16 lg:mt-24">
         <div className="w-full flex flex-col sm:flex-row gap-4 justify-between pb-4">
           <h2 className=" text-4xl">About Paulosafaris.</h2>
-          <p className=" md:max-w-md lg:max-w-lg">
+          <p className=" md:max-w-md">
             Paulosafaris is a unique Kenya Tour Company based in Mombasa
             offering Kenya Coastal Beach Holidays, Adventures from Mombasa to
             Nairobi, East Africa Wildlife Tours from the Kenyan Coast, Tsavo
