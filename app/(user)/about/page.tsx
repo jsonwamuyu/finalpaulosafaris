@@ -17,9 +17,9 @@ export default async function About() {
   return (
     <section className="w-full min-h-screen">
       <div className="max-w-7xl m-auto px-4 sm:px-6 lg:px-8 p-16 pb-8 sm:pb-12  flex flex-col space-y-6 mt-10 sm:mt-16 lg:mt-24">
-        <div className="w-full flex flex-col sm:flex-row gap-4 justify-between pb-4">
+        <div className="w-full flex flex-col gap-4 pb-4">
           <h2 className=" text-4xl">About Paulosafaris.</h2>
-          <p className=" md:max-w-xl">
+          <p className=" md:max-w-xl text-base">
             Paulosafaris is a unique Kenya Tour Company based in Mombasa
             offering Kenya Coastal Beach Holidays, Adventures from Mombasa to
             Nairobi, East Africa Wildlife Tours from the Kenyan Coast, Tsavo
@@ -27,10 +27,10 @@ export default async function About() {
           </p>
         </div>
 
-        <div className="space-y-4">
+        <div className=" w-full space-y-4">
           <div className="space-y-1">
             <h5 className="text-2xl">Our Vision</h5>
-            <p>
+            <p className="text-base">
               To offer clients with the best travel needs and leisure, while
               leading the way to become the leading travel agency in Kenya and
               beyond.
@@ -38,24 +38,24 @@ export default async function About() {
           </div>
           <div className="space-y-1">
             <h5 className="text-2xl">Our Mission</h5>
-            <p>
+            <p className="text-base">
               To provide tailored travel solutions that are timely and beyond
               client expectations.
             </p>
           </div>
           <div className="space-y-1">
             <h5 className="text-2xl">Our Core Values</h5>
-            <ul className="list-disc space-y-1 pl-6">
+            <ul className="list-disc space-y-2 pl-4">
               <li>
                 <h6 className="italic font-medium">Integrity</h6>
-                <p>
+                <p className="text-base">
                   We are committed to honesty, loyalty, and a high standards of
                   ethical conduct.
                 </p>
               </li>
               <li>
                 <h6 className="italic font-medium">Customer-Focused</h6>
-                <p>
+                <p className="text-base">
                   We are committed to providing the highest level of customer
                   service. We extend this to our agents, their customers and our
                   preferred suppliers.
@@ -63,14 +63,14 @@ export default async function About() {
               </li>
               <li>
                 <h6 className="italic font-medium">Innovative</h6>
-                <p>
+                <p className="text-base">
                   We are committed to developing and implementing cutting-edge
                   technologies for our agents and preferred partners.
                 </p>
               </li>
               <li>
                 <h6 className="italic font-medium">Commitment</h6>
-                <p>
+                <p className="text-base">
                   We are committed to providing an unparalleled level of service
                   and value with individually customized travel management
                   service and dedicated travel manager and corporate travel
@@ -79,7 +79,7 @@ export default async function About() {
               </li>
               <li>
                 <h6 className="italic font-medium">Excellence</h6>
-                <p>
+                <p className="text-base">
                   We are commited to being a high performance organization by
                   staying focused on total customer satisfaction. We
                   continuously analyze our precesses and ourselves in order to
