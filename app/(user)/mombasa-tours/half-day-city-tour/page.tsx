@@ -40,7 +40,7 @@ export default function HalfDayCityTour() {
         {/* Image Carausel*/}
         <div className="w-full h-[300px] sm:h-[350px] overflow-hidden">
           <Slider {...settings}>
-            <div className="w-full h-[300px] sm:h-[350px] bg-inherit relative">
+            <div className="w-full h-[300px] sm:h-[350px] relative">
               <Image
                 className="object-cover rounded-md"
                 src="/mombasa-tours/city-tour/one.jpg"
@@ -48,7 +48,7 @@ export default function HalfDayCityTour() {
                 alt="mombasa"
               />
             </div>
-            <div className="w-full h-[300px] md:h-[400px] lg:h-[450px] sm:h-[350px] bg-inherit relative">
+            <div className="w-full h-[300px] sm:h-[350px] relative">
               <Image
                 className="object-cover rounded-md"
                 src="/mombasa-tours/city-tour/two.jpg"
@@ -56,7 +56,7 @@ export default function HalfDayCityTour() {
                 alt="mombasa"
               />
             </div>
-            <div className="w-full h-[300px] sm:h-[350px] bg-inherit relative">
+            <div className="w-full h-[300px] sm:h-[350px] relative">
               <Image
                 className="object-cover rounded-md"
                 src="/mombasa-tours/city-tour/crocodile.jpg"

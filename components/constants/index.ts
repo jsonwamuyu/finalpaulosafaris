@@ -119,7 +119,7 @@ const mombasasafaris = [
     imgUrl: "/mombasa-tours/city-tour/wood.jpg",
     title: "Mombasa City Half Day Tour",
     location:
-      "Mombasa Old Town, Wood Carvings Center(Akamba), Croccodile Farm(Nyali)",
+      "Mombasa Old Town, Wood Carvings Center(Akamba), Crocodile Farm(Nyali)",
     alt: "mombasa",
   },
 ];
@@ -412,7 +412,7 @@ const tsavowest = [
   },
   {
     id: 6,
-    img: "/maasai/elephant.jpg",
+    img: "/tsavowest/elephant.jpg",
     alt: "elephants",
   },
 ];

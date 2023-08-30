@@ -42,28 +42,28 @@ export default function MaasaiMaraSpecial() {
         {/* Image Carausel*/}
         <div className="w-full h-[300px] sm:h-[350px] overflow-hidden">
           <Slider {...settings}>
-            <div className="w-full h-[300px] sm:h-[350px] bg-inherit relative">
+            <div className="w-full h-[300px] sm:h-[350px] relative">
               <Image
                 className="object-cover rounded-md"
-                src="/safaris/nothern-kenya/impalas.JPG"
+                src="/flightsafaris/mara-special/wbeasts.jpg"
                 fill
-                alt="impalas"
+                alt="elephants"
               />
             </div>
-            <div className="w-full h-[300px] md:h-[400px] lg:h-[450px] sm:h-[350px] bg-inherit relative">
+            <div className="w-full h-[300px] sm:h-[350px] relative">
               <Image
                 className="object-cover rounded-md"
-                src="/safaris/nothern-kenya/rhin.JPG"
+                src="/flightsafaris/mara-special/ostrich.jpg"
                 fill
-                alt="rhinos"
+                alt="ostrich"
               />
             </div>
-            <div className="w-full h-[300px] sm:h-[350px] bg-inherit relative">
+            <div className="w-full h-[300px] sm:h-[350px] relative">
               <Image
                 className="object-cover rounded-md"
-                src="/safaris/nothern-kenya/lions.JPG"
+                src="/flightsafaris/mara-special/mara5.jpg"
                 fill
-                alt="lions"
+                alt="leopard"
               />
             </div>
           </Slider>

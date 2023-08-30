@@ -49,9 +49,9 @@ const LakeNakuru = () => {
                 <div className="w-full h-[300px] sm:h-[350px] relative">
                   <Image
                     className="object-cover rounded-md"
-                    src="/nakuru/boboon.jpg"
+                    src="/nakuru/baboon.jpg"
                     fill
-                    alt="boboon"
+                    alt="Baboon"
                   />
                 </div>
                 <div className="w-full h-[300px] sm:h-[350px] relative">
