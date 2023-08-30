@@ -453,13 +453,13 @@ const tsavoeast = [
 const serengeti = [
   {
     id: 1,
-    img: "/serengeti/cheeter.jpg",
+    img: "/serengeti/elephants.jpg",
     alt: "cheeter",
   },
   {
     id: 2,
-    img: "/serengeti/leopard.jpg",
-    alt: "leopard",
+    img: "/serengeti/zebras.jpg",
+    alt: "zebras",
   },
   {
     id: 3,
@@ -468,17 +468,17 @@ const serengeti = [
   },
   {
     id: 4,
-    img: "/serengeti/cheeter.JPG",
+    img: "/serengeti/cheeter.jpg",
     alt: "cheeter",
   },
   {
     id: 5,
-    img: "/serengeti/sereng1.JPG",
+    img: "/serengeti/sereng1.jpg",
     alt: "plains",
   },
   {
     id: 6,
-    img: "/serengeti/lion.jpg",
+    img: "/serengeti/lions.jpg",
     alt: "lion",
   },
 ];
