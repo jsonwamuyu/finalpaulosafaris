@@ -32,7 +32,7 @@ export default async function Destinations(){
                   fill
                   className="object-cover rounded-md group-hover:scale-105 duration-300 ease-out filter group-hover:grayscale transition-all"
                 />
-                <div className=" px-1 py-[2px] w-fit absolute bottom-0 bg-black left-0 rounded-bl-md right-0 flex flex-col drop-shadow-sm bg-opacity-20 backdrop-blur-sm transition-all">
+                <div className=" px-1 py-[2px] w-fit absolute bottom-0 bg-green left-0 rounded-bl-md right-0 ">
                   <h4 className="text-yellow text-sm capitalize">
                     {dest.name}
                   </h4>

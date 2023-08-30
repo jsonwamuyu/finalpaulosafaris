@@ -23,7 +23,7 @@ const PreviewDestinations = () => {
             {prev_destination.map((item) => (
               <Link
                 href={item.url}
-                className=" group cursor-pointer relative w-full h-[200px] rounded-md"
+                className=" group cursor-pointer relative w-full h-[150px] sm:h-[180px] rounded-md"
                 key={item.id}>
                 <Image
                   src={item.image}
@@ -31,7 +31,7 @@ const PreviewDestinations = () => {
                   className=" object-cover rounded-md group-hover:grayscale group-hover:scale-105 transition-all filter duration-300 ease-out"
                   fill
                 />
-                <div className=" px-1 py-[2px] w-fit rounded-sm absolute bottom-1 bg-green left-1 right-0 flex flex-col">
+                <div className=" px-1 py-[2px] w-fit rounded-sm absolute bottom-1 bg-green left-1 right-0">
                   <p className="text-white text-sm capitalize">{item.place}</p>
                 </div>
               </Link>
