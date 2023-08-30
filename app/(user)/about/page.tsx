@@ -27,6 +27,69 @@ export default async function About() {
           </p>
         </div>
 
+        <div className="space-y-4">
+          <div className="space-y-1">
+            <h5 className="text-xl font-medium">Our Vision</h5>
+            <p>
+              To offer clients with the best travel needs and leisure, while
+              leading the way to become the leading travel agency in Kenya and
+              beyond.
+            </p>
+          </div>
+          <div className="space-y-1">
+            <h5 className="text-xl font-medium">Our Mission</h5>
+            <p>
+              To provide tailored travel solutions that are timely and beyond
+              client expectations.
+            </p>
+          </div>
+          <div className="space-y-1">
+            <h5 className="text-xl font-medium">Our Core Values</h5>
+            <ul className="list-disc space-y-1">
+              <li>
+                <h6 className="italic">Integrity</h6>
+                <p>
+                  We are committed to honesty, loyalty, and a high standards of
+                  ethical conduct.
+                </p>
+              </li>
+              <li>
+                <h6 className="italic">Customer-Focused</h6>
+                <p>
+                  We are committed to providing the highest level of customer
+                  service. We extend this to our agents, their customers and our
+                  preferred suppliers.
+                </p>
+              </li>
+              <li>
+                <h6 className="italic">Innovative</h6>
+                <p>
+                  We are committed to developing and implementing cutting-edge
+                  technologies for our agents and preferred partners.
+                </p>
+              </li>
+              <li>
+                <h6 className="italic">Commitment</h6>
+                <p>
+                  We are committed to providing an unparalleled level of service
+                  and value with individually customized travel management
+                  service and dedicated travel manager and corporate travel
+                  team.
+                </p>
+              </li>
+              <li>
+                <h6 className="italic">Excellence</h6>
+                <p>
+                  We are commited to being a high performance organization by
+                  staying focused on total customer satisfaction. We
+                  continuously analyze our precesses and ourselves in order to
+                  become the best of the best.
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+
         <div className="w-full flex flex-col gap-4 pt-6 pb-8">
           <h2 className="text-2xl tracking-tight">Meet Our Team </h2>
 
