@@ -29,7 +29,7 @@ export default async function About() {
 
         <div className="space-y-4">
           <div className="space-y-1">
-            <h5 className="text-xl font-medium">Our Vision</h5>
+            <h5 className="text-2xl">Our Vision</h5>
             <p>
               To offer clients with the best travel needs and leisure, while
               leading the way to become the leading travel agency in Kenya and
@@ -37,24 +37,24 @@ export default async function About() {
             </p>
           </div>
           <div className="space-y-1">
-            <h5 className="text-xl font-medium">Our Mission</h5>
+            <h5 className="text-2xl">Our Mission</h5>
             <p>
               To provide tailored travel solutions that are timely and beyond
               client expectations.
             </p>
           </div>
           <div className="space-y-1">
-            <h5 className="text-xl font-medium">Our Core Values</h5>
-            <ul className="list-disc space-y-1">
+            <h5 className="text-2xl">Our Core Values</h5>
+            <ul className="list-disc space-y-1 pl-6">
               <li>
-                <h6 className="italic">Integrity</h6>
+                <h6 className="italic font-medium">Integrity</h6>
                 <p>
                   We are committed to honesty, loyalty, and a high standards of
                   ethical conduct.
                 </p>
               </li>
               <li>
-                <h6 className="italic">Customer-Focused</h6>
+                <h6 className="italic font-medium">Customer-Focused</h6>
                 <p>
                   We are committed to providing the highest level of customer
                   service. We extend this to our agents, their customers and our
@@ -62,14 +62,14 @@ export default async function About() {
                 </p>
               </li>
               <li>
-                <h6 className="italic">Innovative</h6>
+                <h6 className="italic font-medium">Innovative</h6>
                 <p>
                   We are committed to developing and implementing cutting-edge
                   technologies for our agents and preferred partners.
                 </p>
               </li>
               <li>
-                <h6 className="italic">Commitment</h6>
+                <h6 className="italic font-medium">Commitment</h6>
                 <p>
                   We are committed to providing an unparalleled level of service
                   and value with individually customized travel management
@@ -78,7 +78,7 @@ export default async function About() {
                 </p>
               </li>
               <li>
-                <h6 className="italic">Excellence</h6>
+                <h6 className="italic font-medium">Excellence</h6>
                 <p>
                   We are commited to being a high performance organization by
                   staying focused on total customer satisfaction. We
@@ -91,7 +91,7 @@ export default async function About() {
         </div>
 
         <div className="w-full flex flex-col gap-4 pt-6 pb-8">
-          <h2 className="text-2xl tracking-tight">Meet Our Team </h2>
+          <h2 className="text-2xl">Meet Our Team </h2>
 
           {/* Our Team */}
           <div className="w-full grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
@@ -119,7 +119,7 @@ export default async function About() {
         </div>
 
         {/*Gallery*/}
-        <h3 className="text-2xl tracking-tight">Gallery</h3>
+        <h3 className="text-2xl">Gallery</h3>
         <div className="w-full grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
           {gallery?.map((item) => (
             <div
