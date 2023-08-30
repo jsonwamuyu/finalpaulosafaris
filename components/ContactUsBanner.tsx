@@ -4,7 +4,7 @@ import { HiArrowCircleRight } from "react-icons/hi";
 
 const ContactUsBanner = () => {
   return (
-    <section className="w-full -mt-[7px] bg-slate-100">
+    <section className="w-full -mt-[7px] bg-slate-50">
       <article className="max-w-5xl mx-auto py-16 px-8 flex flex-col space-y-8 justify-center">
         <div className=" space-y-4">
           <h2 className="text-4xl text-green text-center">Our Services</h2>
