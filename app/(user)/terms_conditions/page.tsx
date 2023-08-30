@@ -24,7 +24,7 @@ const TermsConditions = () =>{
                     reserve{" "}
                   </Link>
                   a safari destination(s) with us, it is highly encouraged to do
-                  it <span className="font-semibold">6(six) months</span> prio
+                  so <span className="font-semibold">6(six) months</span> prio
                   the safari starting date. The intention is to give all the
                   involved parties ample time to carry out the required
                   arragements. Also for proper and sufficient preparitions.
