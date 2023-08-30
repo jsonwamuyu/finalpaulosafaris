@@ -47,7 +47,7 @@ const Amboseli = () => {
                 <div className="w-full h-[300px] sm:h-[350px] bg-inherit relative">
                   <Image
                     className="object-cover rounded-md"
-                    src="/amboseli/wildebeast.jpg"
+                    src="/amboseli/wildebeasts.jpg"
                     fill
                     alt="wildebeast"
                   />
@@ -55,7 +55,7 @@ const Amboseli = () => {
                 <div className="w-full h-[300px] md:h-[400px] lg:h-[450px] sm:h-[350px] bg-inherit relative">
                   <Image
                     className="object-cover rounded-md"
-                    src="/amboseli/flamingo.jpg"
+                    src="/amboseli/flamingos.jpg"
                     fill
                     alt="flamingo"
                   />

@@ -288,32 +288,32 @@ const bannerfooterlinks = [
 const amboseli = [
   {
     id: 1,
-    img: "/amboseli/bird.JPG",
+    img: "/amboseli/bird.jpg",
     alt: "bird",
   },
   {
     id: 2,
-    img: "/amboseli/.elephants.JPG",
+    img: "/amboseli/.elephants.jpg",
     alt: "elephants",
   },
   {
     id: 3,
-    img: "/amboseli/wildebeast.JPG",
+    img: "/amboseli/wildebeast.jpg",
     alt: "wildebeast",
   },
   {
     id: 4,
-    img: "/amboseli/hill.JPG",
+    img: "/amboseli/hill.jpg",
     alt: "lake",
   },
   {
     id: 5,
-    img: "/amboseli/flamingo.JPG",
+    img: "/amboseli/flamingo.jpg",
     alt: "flamingos",
   },
   {
     id: 6,
-    img: "/amboseli/wildebeasts.JPG",
+    img: "/amboseli/wildebeasts.jpg",
     alt: "wildebeasts",
   },
 ];
