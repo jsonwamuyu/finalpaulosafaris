@@ -10,7 +10,7 @@ const ContactUsBanner = () => {
           <h2 className="text-4xl text-green text-center sm:text-start">
             Our Services
           </h2>
-          <div className="text-center sm:text-start">
+          <div className="text-center sm:text-start space-y-2">
             <h5 className="text-xl font-medium text-center sm:text-start">
               Kenya Tours
             </h5>
@@ -22,7 +22,7 @@ const ContactUsBanner = () => {
               Baringo, Taita Hills Sanctuary
             </p>
           </div>
-          <div>
+          <div className="text-center sm:text-start space-y-2">
             <h5 className="text-xl font-medium text-center sm:text-start">
               Tanzania Tours
             </h5>
@@ -31,7 +31,7 @@ const ContactUsBanner = () => {
               National Park, Lake Manyara National Park, Ngorongoro Crater
             </p>
           </div>
-          <div>
+          <div className="text-center sm:text-start space-y-2">
             <h5 className="text-xl font-medium text-center sm:text-start">
               Rwanda Tours
             </h5>
@@ -40,7 +40,7 @@ const ContactUsBanner = () => {
             </p>
           </div>
 
-          <div className="text-center sm:text-start">
+          <div className="text-center sm:text-start space-y-2">
             <h5 className="text-xl font-medium text-center sm:text-start">
               Uganda Tours
             </h5>
