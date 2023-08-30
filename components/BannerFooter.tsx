@@ -21,6 +21,7 @@ const BannerFooter = () => {
             href="https://johnsonmuchiri.vercel.app"
             rel="noopener noreferrer"
             className="hover:text-white underline hover:no-underline">
+            {" "}
             Muchiri Wamuyu
           </Link>
         </div>
