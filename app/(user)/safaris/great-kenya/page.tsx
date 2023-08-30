@@ -234,7 +234,7 @@ export default function GreatKenya() {
                     <p>
                       Early morning game drive in Amboseli. Return to the lodge
                       for breakfast. Depart for Nairobi. Arrive and have leisure
-                      time to explore Nairobi's attractions. Overnight in
+                      time to explore the attractions of Nairobi City. Overnight in
                       Nairobi.
                     </p>
                   </div>

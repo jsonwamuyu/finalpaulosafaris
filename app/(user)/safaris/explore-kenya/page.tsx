@@ -221,8 +221,8 @@ export default function ExploreKenya() {
                     <p>
                       After an early breakfast, depart for Samburu Game Reserve.
                       Spend two full days exploring Samburu. Enjoy game drives
-                      and witness unique wildlife. Experience Samburu's rugged
-                      beauty. Overnight at a lodge/camp in Samburu.
+                      and witness unique wildlife. Experience the rugged beauty
+                      of Samburu. Overnight at a lodge/camp in Samburu.
                     </p>
                   </div>
 
@@ -309,8 +309,8 @@ export default function ExploreKenya() {
                     </h6>
                     <p>
                       Depart for Tsavo East after breakfast. Arrive and enjoy a
-                      game drive. Encounter Tsavo's unique wildlife. Overnight
-                      at a lodge/camp in Tsavo East.
+                      game drive. Encounter the unique wildlife of Tsavo.
+                      Overnight at a lodge/camp in Tsavo East.
                     </p>
                   </div>
 
@@ -332,8 +332,8 @@ export default function ExploreKenya() {
                     </p>
                   </div>
                   <p className="text-green uppercase text-lg mt-8">
-                    Enjoy your in-depth exploration of Kenya's diverse
-                    landscapes and wildlife!
+                    Enjoy your in-depth exploration of the diverse landscapes
+                    and wildlife! of Kenya
                   </p>
                 </div>
               </div>

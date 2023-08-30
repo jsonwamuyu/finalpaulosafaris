@@ -207,7 +207,8 @@ export default function NairobiSpecial() {
                   </div>
 
                   <p className="text-green uppercase pt-6">
-                    Enjoy your day exploring Nairobi's fascinating attractions!
+                    Enjoy your day exploring the fascinating attractions of
+                    Nairobi City!
                   </p>
                 </div>
               </div>

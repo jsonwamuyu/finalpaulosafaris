@@ -190,8 +190,8 @@ export default function DolphinsTour() {
                     <p>
                       Embark on a traditional dhow (sailing boat) for your
                       dolphin watching adventure. The crew will provide safety
-                      instructions and insights about the area's marine life.
-                      10:00 AM - Set sail into the Indian Ocean in search of
+                      instructions and insights about marine life of the area .
+                      Midmorning - set sail into the Indian Ocean in search of
                       dolphins. Enjoy the scenic views of the coastline along
                       the way.Around midday return from dolphin watching and
                       head back to Shimoni for your lunch.
@@ -213,10 +213,10 @@ export default function DolphinsTour() {
                       After lunch you will explore the Shimoni Slave Caves.
                       These historic caves were used during the slave trade and
                       provide insight into a dark period of history. Guided
-                      tours are available to learn about the caves'
-                      significance. Later you will take a short boat ride from
-                      Shimoni to Wasini Island, known for its laid-back
-                      atmosphere and beautiful surroundings.
+                      tours are available to learn about importance of the
+                      caves. Later you will take a short boat ride from Shimoni
+                      to Wasini Island, known for its laid-back atmosphere and
+                      beautiful surroundings.
                     </p>
                   </div>
                   <div className="space-y-1">
@@ -238,9 +238,9 @@ export default function DolphinsTour() {
                     </h6>
                     <p>
                       As the day winds down, relax on the beach, enjoy the
-                      sunset, and reflect on your day's adventures. You can now
-                      at your preferred time depart from Wasini Island and head
-                      back to your accommodation, concluding your memorable
+                      sunset, and reflect on your adventures of the day. You can
+                      now at your preferred time depart from Wasini Island and
+                      head back to your accommodation, concluding your memorable
                       1-day Dolphin Tour at Wasini Island.
                     </p>
                   </div>

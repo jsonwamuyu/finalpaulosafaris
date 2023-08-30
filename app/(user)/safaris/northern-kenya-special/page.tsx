@@ -223,7 +223,7 @@ export default function NorthernKenyaSpecial() {
                     <p>
                       After breakfast, depart for Samburu Game Reserve. Arrive
                       and go on an afternoon game drive. Look out for unique
-                      wildlife species like the reticulated giraffe and Grevy's
+                      wildlife species like the reticulated giraffe and Grevy
                       zebra. Spend the night at a lodge or camp within the
                       reserve.
                     </p>
