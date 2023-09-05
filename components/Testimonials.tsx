@@ -18,12 +18,12 @@ export default async function Testimonials() {
           Hear genuine stories from our satisfied customers about their
           exceptional experiences with us.
         </p>
-        <div className="flex flex-1 mt-24 justify-evenly items-center gap-14 max-lg:flex-col">
+        <div className="flex flex-1 pt-24 justify-evenly items-center lg:items-start gap-14 flex-col lg:flex-row">
           {testimonials?.map((item) => (
             <article
               key={item._id}
               className="flex items-center justify-center flex-col">
-              <div className="relative h-[120px] w-[120px] rounded-full">
+              <div className="relative h-[80px] w-[80px] rounded-full">
                 <Image
                   className="object-cover rounded-full"
                   fill
