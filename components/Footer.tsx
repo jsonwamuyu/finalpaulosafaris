@@ -26,7 +26,7 @@ const Footer = () => {
               href="/"
               className="w-8 h-8 rounded-md relative cursor-pointer">
               <Image
-                src="https://i.pinimg.com/280x280_RS/4e/57/38/4e57387264b709884c5f3a19528e9df5.jpg"
+                src="/logo.jpg"
                 className="rounded-md object-contain"
                 alt="paulosfaris"
                 fill
@@ -34,7 +34,7 @@ const Footer = () => {
             </Link>
             <h4 className="text-xl font-medium">About paulosafaris</h4>
           </div>
-          <p className=" text-sm leading-normal text-white/80">
+          <p className="leading-normal text-white/80">
             Paulosafaris is a unique Kenya Tour Company based in Mombasa
             offering Kenya Coastal Beach Holidays, Adventures from Mombasa to
             Nairobi, East Africa Wildlife Tours from the Kenyan Coast, Tsavo

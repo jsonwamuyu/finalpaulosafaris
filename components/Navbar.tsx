@@ -29,7 +29,7 @@ const Navbar = () => {
               window.scrollTo();
             }}>
             <Image
-              src="https://i.pinimg.com/280x280_RS/4e/57/38/4e57387264b709884c5f3a19528e9df5.jpg"
+              src="/logo.jpg"
               alt="paulosafaris"
               width={34}
               height={34}
