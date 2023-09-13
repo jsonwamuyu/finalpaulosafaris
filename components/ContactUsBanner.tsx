@@ -16,9 +16,9 @@ const ContactUsBanner = () => {
               <p className="text-gray-500 leading-normal text-center sm:text-start lg:max-w-lg mt-3">
                 Samburu Game Reserve, Tsavo West/ East National Park, Maasai
                 Mara Game Reserve, Solio Ranch, Amboseli National Park, Meru
-                National Park,Sweetwaters Sanctuary, Nairobi National Park, Lake
-                Nakuru National Park, Lake Naivasha National Park, Lake Bogiria,
-                Lake Baringo, Taita Hills Sanctuary
+                National Park,Sweetwaters Sanctuary, Nairobi National Park,
+                L.Nakuru National Park, L.Naivasha National Park, L.Bogiria,
+                L.Baringo, Taita Hills Sanctuary.
               </p>
             </div>
             <div className="border p-4 rounded-md w-full">
@@ -27,7 +27,7 @@ const ContactUsBanner = () => {
               </h5>
               <p className="text-gray-600 leading-normal sm:text-start text-center lg:max-w-lg mt-3">
                 Serengeti National Park, Arusha, Dar es Salaam, Kilimanjaro
-                National Park, Lake Manyara National Park, Ngorongoro Crater
+                National Park, Lake Manyara National Park, Ngorongoro Crater.
               </p>
             </div>
           </div>
@@ -38,7 +38,7 @@ const ContactUsBanner = () => {
                 Rwanda Tours
               </h5>
               <p className="text-gray-600 leading-normal sm:text-start text-center lg:max-w-lg mt-3">
-                Gorilla Trekking - Volcanoes National Park
+                Gorilla Trekking - Volcanoes National Park.
               </p>
             </div>
 
