@@ -73,16 +73,16 @@ const TermsConditions = () =>{
                 <tbody className="p-5 bg-yellow-100 text-sm text-gray-600">
                   <tr>
                     <td className="pl-5 border border-gray-200">
-                      3(three) Months
+                      3 Months
                     </td>
                     <td className="border border-gray-200 pl-5">50%</td>
                   </tr>
                   <tr>
-                    <td className="pl-5 border border-gray-200"></td>
+                    <td className="pl-5 border border-gray-200">1 Month</td>
                     <td className="border border-gray-200 pl-5">25%</td>
                   </tr>
                   <tr>
-                    <td className="pl-5 border border-gray-200"></td>
+                    <td className="pl-5 border border-gray-200">2 Weeks</td>
                     <td className="border border-gray-200 pl-5">5%</td>
                   </tr>
                   <tr>

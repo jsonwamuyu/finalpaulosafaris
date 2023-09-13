@@ -34,11 +34,11 @@ const Footer = () => {
             </Link>
             <h4 className="text-xl font-medium">About paulosafaris</h4>
           </div>
-          <p className=" text-sm text-white/80">
-            Paulsafaris is a unique Kenya Tour Company based in Mombasa offering
-            Kenya Coastal Beach Holidays, Adventures from Mombasa to Nairobi,
-            East Africa Wildlife Tours from the Kenyan Coast, Tsavo Safaris from
-            Mombasa and Maasai Mara Tours.
+          <p className=" text-sm leading-normal text-white/80">
+            Paulosafaris is a unique Kenya Tour Company based in Mombasa
+            offering Kenya Coastal Beach Holidays, Adventures from Mombasa to
+            Nairobi, East Africa Wildlife Tours from the Kenyan Coast, Tsavo
+            Safaris from Mombasa and Maasai Mara Tours.
           </p>
         </div>
         <div className="flex  flex-col gap-4 sm:w-1/3  items-center sm:items-start">

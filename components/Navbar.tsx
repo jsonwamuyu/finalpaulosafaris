@@ -43,7 +43,7 @@ const Navbar = () => {
         </div>
 
         {/* Desktop links */}
-        <ul className="hidden sm:flex flex-row items-center justify-center gap-4 h-full text-base flex-1">
+        <ul className="hidden sm:flex flex-row items-center justify-center gap-4 h-full leading-normal flex-1">
           {links.map((item) => (
             <Link
               key={item.id}
@@ -69,7 +69,7 @@ const Navbar = () => {
 
         {toggle && (
           <div className="absolute sm:hidden top-[4rem] left-0 right-0 bg-yellow text-white/80 transition-all duration-300 ease-out h-auto z-50 bg-yellow border-b border-white/20">
-            <ul className="flex flex-col gap-4 text-base items-center py-12">
+            <ul className="flex flex-col gap-4 text-sm items-center py-12">
               <motion.li
                 whileInView={{ x: [-100, 0] }}
                 transition={{ duration: 0.05, ease: "easeOut" }}

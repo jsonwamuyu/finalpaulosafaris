@@ -78,6 +78,9 @@ const Enquire = () => {
           <form
             className="flex flex-col md:w-2/3 w-full"
             onSubmit={sendEnquiry}>
+            <p className="text-xs pb-2 text-gray-500">
+              A field marked with * is required.
+            </p>
             <div className="flex gap-4 sm:flex-row  flex-col w-full">
               <input
                 type="text"
@@ -126,7 +129,7 @@ const Enquire = () => {
             </div>
             <div className="flex flex-col sm:flex-row gap-4 w-full">
               <div className="flex flex-row w-full gap-2 items-center">
-                <p className="text-sm">Safari starts</p>
+                <p className="text-xs">Safari starts*</p>
                 <input
                   type="date"
                   disabled={sending}
@@ -139,7 +142,7 @@ const Enquire = () => {
               </div>
 
               <div className="flex flex-row gap-2 w-full items-center">
-                <p className="text-sm">Safari ends</p>
+                <p className="text-xs">Safari ends</p>
                 <input
                   type="date"
                   disabled={sending}
@@ -156,7 +159,7 @@ const Enquire = () => {
               disabled={sending}
               onChange={(e) => setDestination(e.target.value)}
               type="text"
-              placeholder="Enter Safari Destination"
+              placeholder="Enter Safari Destination*"
               className="py-3 px-6 my-4 outline-none border rounded-md shadow-sm text-sm placeholder:text-sm placeholder:text-gray-500 text-gray-500 border-gray-300"
               required
             />
