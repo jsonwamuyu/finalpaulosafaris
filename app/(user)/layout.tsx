@@ -20,7 +20,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en" className={inter.className}>
       <body>
-        <main className="w-full min-h-screen">
+        <main className="w-full min-h-screen select-none">
           <Navbar />
           {children}
           <Link
