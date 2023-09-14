@@ -82,43 +82,43 @@ const Footer = () => {
               href="https://pinterest.com/paulosafaris/"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-[#e60023] hover:opacity-70">
-              <BsPinterest size={14} />
+              className="text-white bg-[#e60023] hover:opacity-70  flex items-center justify-center h-6 w-6 rounded-full">
+              <BsPinterest size={13} />
             </Link>
             <Link
               href="https://www.linkedin.com/in/paul-otieno-294689136/"
-              className="hover:opacity-70 text-[#0077b5]"
+              className="hover:opacity-70 text-white bg-[#0077b5] h-6 w-6 flex items-center justify-center  rounded-full"
               target="_blank"
               rel="noopener noreferrer">
-              <BsLinkedin size={14} />
+              <BsLinkedin size={13} />
             </Link>
             <Link
               href="https://www.twitter.com/PauloSafaris"
-              className="hover:opacity-70 text-[#00acee]"
+              className="hover:opacity-70 text-white bg-[#00acee] h-6 w-6 rounded-full flex items-center justify-center"
               target="_blank"
               rel="noopener noreferrer">
-              <BsTwitter size={14} />
+              <BsTwitter size={13} />
             </Link>
             <Link
               href="https://www.instagram.com/paulosafaris"
-              className="hover:opacity-70 text-[#e1306c]"
+              className="hover:opacity-70 text-white bg-[#e1306c] h-6 w-6 rounded-full flex items-center justify-center"
               target="_blank"
               rel="noopener noreferrer">
-              <BsInstagram size={14} />
+              <BsInstagram size={13} />
             </Link>
             <Link
               href="https://www.facebook.com/paulosafariskenya/"
-              className="hover:opacity-70 text-[#3b5998]"
+              className="hover:opacity-70 text-white bg-[#3b5998] h-6 w-6 rounded-full flex items-center justify-center"
               target="_blank"
               rel="noopener noreferrer">
-              <BsFacebook size={14} />
+              <BsFacebook size={13} />
             </Link>
             <Link
               href="https://www.tiktok.com/paulosafaris"
-              className="hover:opacity-70 text-[#fe2c55]"
+              className="hover:opacity-70 text-white bg-[#fe2c55] h-6 w-6 rounded-full flex items-center justify-center"
               target="_blank"
               rel="noopener noreferrer">
-              <BsTiktok size={14} />
+              <BsTiktok size={13} />
             </Link>
           </div>
         </div>

@@ -197,46 +197,46 @@ const Enquire = () => {
             {/* Social icons */}
             <div className="flex gap-4 text-green">
               <Link
-                href="https://www.linkedin.com/in/paul-otieno-294689136"
-                className="hover:opacity-60 text-[#0077b5]"
+                href="https://pinterest.com/paulosafaris/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-white bg-[#e60023] hover:opacity-70  flex items-center justify-center h-6 w-6 rounded-full">
+                <BsPinterest size={16} />
+              </Link>
+              <Link
+                href="https://www.linkedin.com/in/paul-otieno-294689136/"
+                className="hover:opacity-70 text-white bg-[#0077b5] h-6 w-6 flex items-center justify-center  rounded-full"
                 target="_blank"
                 rel="noopener noreferrer">
-                <BsLinkedin size={16} />
+                <BsLinkedin size={13} />
               </Link>
               <Link
                 href="https://www.twitter.com/PauloSafaris"
-                className="hover:opacity-60 text-[#00acee]"
+                className="hover:opacity-70 text-white bg-[#00acee] h-6 w-6 rounded-full flex items-center justify-center"
                 target="_blank"
                 rel="noopener noreferrer">
                 <BsTwitter size={16} />
               </Link>
               <Link
                 href="https://www.instagram.com/paulosafaris"
-                className="hover:opacity-60 text-[#e1306c]"
+                className="hover:opacity-70 text-white bg-[#e1306c] h-6 w-6 rounded-full flex items-center justify-center"
                 target="_blank"
                 rel="noopener noreferrer">
                 <BsInstagram size={16} />
               </Link>
               <Link
                 href="https://www.facebook.com/paulosafariskenya/"
-                className="hover:opacity-60 text-[#3b5998]"
+                className="hover:opacity-70 text-white bg-[#3b5998] h-6 w-6 rounded-full flex items-center justify-center"
                 target="_blank"
                 rel="noopener noreferrer">
                 <BsFacebook size={16} />
               </Link>
               <Link
                 href="https://www.tiktok.com/paulosafaris"
-                className="hover:opacity-60 text-[#fe2c55]"
+                className="hover:opacity-70 text-white bg-[#fe2c55] h-6 w-6 rounded-full flex items-center justify-center"
                 target="_blank"
                 rel="noopener noreferrer">
                 <BsTiktok size={16} />
-              </Link>
-              <Link
-                href="https://pinterest.com/paulosafaris/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-[#e60023] hover:opacity-60">
-                <BsPinterest size={16} />
               </Link>
             </div>
           </div>
